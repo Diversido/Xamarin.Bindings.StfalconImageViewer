@@ -1,0 +1,3 @@
+[submodule "StfalconImageViewer"]
+	path = StfalconImageViewer
+	url = https://github.com/Diversido/StfalconImageViewer.git
