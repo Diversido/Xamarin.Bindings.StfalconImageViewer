@@ -11,12 +11,17 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xamarin.Bindings.StfalconImageViewer</RootNamespace>
-    <AssemblyName>Xamarin.Bindings.StfalconImageViewer</AssemblyName>
+    <AssemblyName>ImageViewer</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Xamarin.Bindings.StfalconImageViewer</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Diversido</Authors>
+    <Description>Xamarin Bindings for Android StfalconImageViewer</Description>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -53,8 +57,19 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.3.50.1</Version>
+    <PackageReference Include="Xamarin.Android.PhotoView">
+      <Version>2.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.1.0-preview06</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Transition">
+      <Version>1.2.0-preview06</Version>
+    </PackageReference>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.2</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

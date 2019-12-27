@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Xamarin.Bindings.StfalconImageViewer", "Xamarin.Bindings.StfalconImageViewer.csproj", "{E455DC4B-7912-44B7-809A-8F1DAA5EF607}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Sample", "Sample\Sample.csproj", "{D59120A6-B4D9-476D-ACA9-CAC08C60F307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E455DC4B-7912-44B7-809A-8F1DAA5EF607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E455DC4B-7912-44B7-809A-8F1DAA5EF607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E455DC4B-7912-44B7-809A-8F1DAA5EF607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E455DC4B-7912-44B7-809A-8F1DAA5EF607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59120A6-B4D9-476D-ACA9-CAC08C60F307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59120A6-B4D9-476D-ACA9-CAC08C60F307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59120A6-B4D9-476D-ACA9-CAC08C60F307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59120A6-B4D9-476D-ACA9-CAC08C60F307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
