@@ -18,7 +18,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Xamarin.Bindings.StfalconImageViewer</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Diversido</Authors>
     <Description>Xamarin Bindings for Android StfalconImageViewer</Description>
     <PackOnBuild>true</PackOnBuild>
